@@ -3,7 +3,7 @@ var speakers = [
   {
     name: 'たいちょー',
     startTime: new Date(2018, 03, 12, 13, 40),
-    endTime: new Date(2018, 07, 12, 14, 10),
+    endTime: new Date(2018, 03, 12, 14, 10),
     imagePath:'/images/speaker/pancake.png'
   },
   {
