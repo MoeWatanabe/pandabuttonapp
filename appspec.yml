@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/moeDevelop/pandabuttonapp/pandaApp
+    destination: /home/ec2-user/moeDevelop/pandabuttonapp
 hooks:
   ApplicationStart:
     - location: scripts/start_server.sh
