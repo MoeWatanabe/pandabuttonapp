@@ -2,7 +2,7 @@ var speakers = [
   //↓↓本番データ:タイムスケジュール、変更が多すぎる；；
   {
     name: 'たいちょー',
-    startTime: new Date(2018, 03, 12, 13, 40),
+    startTime: new Date(2018, 03, 12, 13, 50),
     endTime: new Date(2018, 03, 12, 14, 10),
     imagePath:'/images/speaker/pancake.png'
   },
