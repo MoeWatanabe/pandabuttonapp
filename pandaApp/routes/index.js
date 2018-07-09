@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+/*
 var Sequelize = require('sequelize');
 var sequelize = new Sequelize('pandadb',
   process.env.RDS_USERNAME || 'panda',
@@ -21,12 +22,12 @@ const PandaTable = sequelize.define('pandatable', {
   timestamps: true
 });
 PandaTable.sync();
-
+*/
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index.html', { title: 'Express' });
 });
-
+/*
 router.get('/:statusid/status', function (req, res) {
   var statusid = req.params.statusid;
   var uuid = uuidv1();
@@ -43,5 +44,5 @@ router.get('/:statusid/status', function (req, res) {
   });
 });
 
-
+*/
 module.exports = router;
